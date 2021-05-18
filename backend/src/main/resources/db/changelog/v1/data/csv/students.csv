@@ -1,0 +1,11 @@
+id,name,birth_registration_id,student_id,date_of_birth,blood_group,present_address,permanent_address,guardian_name,guardian_email,guardian_phone
+1,MD SHOEB AL AFNAN,4102446505,20230003,21-03-2005,B+,"Kolabagan, Dhaka",Kumilla,SHAHRIAR JAHAN,shahriar.jahan@fakemail.com,017124124
+2,MD TAHSIN MOLLIK TOHA,1845953159,20230004,21-03-2005,A+,"Khilgaon, Dhaka",Barishal,FAHMIDA TASNIM,fahmida98.tasim@nomail.org,017121345
+3,AYMAN RAHMAN,5242871798,20230005,17-11-2006,O+,"Kolabagan, Dhaka",Bagerhat,SALSABIL ALAM,s.alam9160@ymsg.com,017118566
+4,REDWAN CHOWDHURY,8968209003,20230006,13-05-2006,AB+,"Mohakhali, Dhaka",Jhinaidah,TAJRI HASAN SRABONY,srab01.tajri@gmsg.com,017115787
+5,DYOTONA BHATTACHARJEE,9478158258,20230007,31-12-2005,AB-,"Gulshan, Dhaka",Bogura,ARGHA PROTIM ANGON,protim.angon@madeup.com,017113008
+6,ETTAHAD AHMED,5295241825,20230008,22-09-2006,O-,"Farmgate, Dhaka",Sylhet,SAMEYA TAHASIN CHOWDHURY,sameya.ch06@olk.com,017110229
+7,ANIKA KANIZ ESHA,4111337128,20230009,22-09-2006,B+,"Dhanmondi, Dhaka",Akhaura,SHADMAN MUHTADI MASHRUR,shadman397mm@ysms.in,017107450
+8,MD. MARUF AKHTER HOSSAIN,7127954161,20230010,22-09-2006,O+,"Banani, Dhaka",Lalmonirhat,HASNAT ABEER ANGAN,ha9angan@gsms.co.uk,017104671
+9,MD. RAFI UZ ZAMAN,2757287832,20230011,22-09-2006,A-,"Banasri, Dhaka",Shirajgonj,KAZI MHARUF UL ISLAM,kazi.islam@gmsg.co.in,017101892
+10,RAKIB MUHAMMED SAKI,5288959244,20230012,22-09-2006,AB-,"Uttora, Dhaka",Pirojpur,ARNOB ROY,arnob.roy@ymail.com,017099113

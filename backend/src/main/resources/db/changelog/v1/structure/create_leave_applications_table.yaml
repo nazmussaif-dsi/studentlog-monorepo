@@ -1,0 +1,42 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_leave_applications_table_845c6
+       author: saif
+       changes:
+         -  createTable:
+              tableName: leave_application
+              columns:
+                -  column:
+                     name: id
+                     type: int
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                - column:
+                    name: date_from
+                    type: dateTime
+                    constraints:
+                      nullable: false
+                - column:
+                    name: date_to
+                    type: dateTime
+                    constraints:
+                      nullable: false
+                - column:
+                    name: student_id
+                    type: int
+                    constraints:
+                      foreignKeyName: fk_leave_application_student_id
+                      references: student(id)
+                - column:
+                    name: application_body
+                    type: varchar(1000)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: approved_by_id
+                    type: int
+                    constraints:
+                      foreignKeyName: fk_leave_application_approved_by
+                      references: teacher(id)

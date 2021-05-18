@@ -1,0 +1,65 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_student_applications_table_921d2
+       author: ishtiaq
+       changes:
+           -  createTable:
+                tableName: student_application
+                columns:
+                    -  column:
+                         name: id
+                         type: int
+                         autoIncrement: true
+                         constraints:
+                           primaryKey: true
+                           nullable: false
+                    -  column:
+                         name: applied_date
+                         type: dateTime
+                         constraints:
+                           nullable: false
+                    -  column:
+                         name: decided_by_id
+                         type: int
+                         constraints:
+                           foreignKeyName: fk_student_application_approve_admin
+                           references: admin(id)
+                    - column:
+                        name: name
+                        type: varchar(100)
+                    - column:
+                        name: date_of_birth
+                        type: dateTime
+                    - column:
+                        name: blood_group
+                        type: varchar(5)
+                    - column:
+                        name: birth_registration_id
+                        type: varchar(30)
+                    -  column:
+                         name: registration_id
+                         type: varchar(100)
+                    -  column:
+                         name: present_address
+                         type: varchar(255)
+                    -  column:
+                         name: permanent_address
+                         type: varchar(255)
+                    -  column:
+                         name: guardian_name
+                         type: varchar(100)
+                    -  column:
+                         name: guardian_email
+                         type: varchar(100)
+                    -  column:
+                         name: guardian_phone
+                         type: varchar(20)
+                    -  column:
+                         name: applied_for_grade
+                         type: int
+                    -  column:
+                         name: status
+                         type: varchar(20)
+                         constraints:
+                           nullable: false
+

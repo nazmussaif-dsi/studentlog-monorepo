@@ -1,0 +1,14 @@
+{
+  "welcomeMessage": "Hi, welcome!",
+  "home": "Welcome",
+  "about": "About us",
+  "description": "Description",
+  "logout": "Log Out",
+  "profile": "Profile",
+  "students": "Students",
+  "attendance": "Attendance",
+  "new_leave_application": "New Leave Application",
+  "pending_leave_applications": "Pending Leave Applications",
+  "student_registration": "Student Registration"
+
+}

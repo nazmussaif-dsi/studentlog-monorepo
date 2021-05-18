@@ -1,0 +1,29 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_class_students_table_7f70b
+       author: ishtiaq
+       changes:
+           -  createTable:
+                tableName: class_student
+                columns:
+                    -  column:
+                         name: id
+                         type: int
+                         autoIncrement: true
+                         constraints:
+                           primaryKey: true
+                           nullable: false
+                    -  column:
+                         name: class_details_id
+                         type: int
+                         constraints:
+                           nullable: false
+                           foreignKeyName: fk_class_student_details
+                           references: class_details(id)
+                    - column:
+                        name: student_id
+                        type: int
+                        constraints:
+                          nullable: false
+                          foreignKeyName: fk_class_student
+                          references: student(id)

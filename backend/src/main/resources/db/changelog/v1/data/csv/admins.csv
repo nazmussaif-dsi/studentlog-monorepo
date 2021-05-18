@@ -1,0 +1,11 @@
+id,admin_id,name,designation,date_of_birth,blood_group,highest_education_level,joining_date,resignation_date,contact_number,present_address,permanent_address
+1,a1-q1,MD SHOEB AL AFNAN,Junior,21-03-2005,B+,PEC,21-03-2015,21-03-2017,017124124,"Kolabagan, Dhaka",Kumilla
+2,a1-w1,MD TAHSIN MOLLIK TOHA,Senior,21-03-2005,A+,JSC,21-03-2016,21-03-2017,017121345,"Khilgaon, Dhaka",Barishal
+3,a1-e1,AYMAN RAHMAN,Head,17-11-2006,O+,SSC,17-11-2016,17-11-2018,017118566,"Kolabagan, Dhaka",Bagerhat
+4,v2-b2,REDWAN CHOWDHURY,CTO,13-05-2006,AB+,HSC,13-05-2013,13-05-2016,017115787,"Mohakhali, Dhaka",Jhinaidah
+5,v2-n2,DYOTONA BHATTACHARJEE,CEO,31-12-2005,AB-,Bsc,31-12-2011,31-12-2012,017113008,"Gulshan, Dhaka",Bogura
+6,v2-m2,ETTAHAD AHMED,Intern,22-09-2006,O-,Msc,22-09-2019,22-09-2019,017110229,"Farmgate, Dhaka",Sylhet
+7,p4-l4,ANIKA KANIZ ESHA,Consultant,22-09-2006,B+,JDC,22-09-2014,22-09-2016,017107450,"Dhanmondi, Dhaka",Akhaura
+8,p4-k4,MD. MARUF AKHTER HOSSAIN,Engineer,22-09-2006,O+,Phd,22-09-2009,22-09-2019,017104671,"Banani, Dhaka",Lalmonirhat
+9,p4-t4,MD. RAFI UZ ZAMAN,Data Analyist,22-09-2006,A-,HSC,22-09-2007,22-09-2012,017101892,"Banasri, Dhaka",Shirajgonj
+10,p4-h4,RAKIB MUHAMMED SAKI,ML Engineer,22-09-2006,AB-,Diploma,22-09-2018,22-09-2019,017099113,"Uttora, Dhaka",Pirojpur

@@ -1,0 +1,45 @@
+databaseChangeLog:
+
+  - include:
+      file: structure/create_students_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_admins_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_teachers_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_student_applications_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_subjects_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_attendances_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_school_classes_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_class_details_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_class_students_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_tests_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_test_results_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_subject_details_table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: structure/create_leave_applications_table.yaml
+      relativeToChangelogFile: true
+
+  - include:
+      file: data/add_data.yaml
+      relativeToChangelogFile: true

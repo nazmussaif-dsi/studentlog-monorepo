@@ -1,0 +1,39 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_test_results_table_1357a
+       author: ishmum
+       changes:
+         -  createTable:
+              tableName: test_results
+              columns:
+                -  column:
+                     name: id
+                     type: int
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                -  column:
+                     name: test_id
+                     type: int
+                     constraints:
+                       nullable: false
+                       foreignKeyName: fk_test_results_tests
+                       references: tests(id)
+                -  column:
+                     name: student_id
+                     type: int
+                     constraints:
+                       nullable: false
+                       foreignKeyName: fk_tests_results_student
+                       references: student(id)
+                -  column:
+                     name: grade
+                     type: varchar(5)
+                     constraints:
+                       nullable: false
+         -  addUniqueConstraint:
+               columnNames: test_id, student_id
+               constraintName: uq_test_results_test_id_student_id
+               tableName: test_results
+               validate: true

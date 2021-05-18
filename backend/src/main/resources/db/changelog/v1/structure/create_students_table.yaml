@@ -1,0 +1,64 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_students_table_845c6
+       author: ishmum
+       changes:
+         -  createTable:
+              tableName: student
+              columns:
+                -  column:
+                     name: id
+                     type: int
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                -  column:
+                     name: name
+                     type: varchar(30)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: birth_registration_id
+                     type: varchar(100)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: student_id
+                     type: varchar(100)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: date_of_birth
+                     type: date
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: blood_group
+                     type: varchar(5)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: present_address
+                     type: varchar(255)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: permanent_address
+                     type: varchar(255)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: guardian_name
+                     type: varchar(100)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: guardian_email
+                     type: varchar(100)
+                -  column:
+                     name: guardian_phone
+                     type: varchar(20)
+                     constraints:
+                       nullable: false
+

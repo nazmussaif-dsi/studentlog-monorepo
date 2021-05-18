@@ -1,0 +1,25 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_subjects_table_1
+       author: lubna
+       changes:
+         -  createTable:
+              tableName: subject
+              columns:
+                -  column:
+                     name: id
+                     type: int
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                -  column:
+                     name: name
+                     type: varchar(30)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: category
+                     type: varchar(100)
+                     constraints:
+                       nullable: false

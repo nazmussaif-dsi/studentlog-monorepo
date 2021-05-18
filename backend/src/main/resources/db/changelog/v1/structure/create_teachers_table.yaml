@@ -1,0 +1,75 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_teachers_table_845c6
+       author: saif
+       changes:
+         -  createTable:
+              tableName: teacher
+              columns:
+                -  column:
+                     name: id
+                     type: int
+                     autoIncrement: true
+                     constraints:
+                       primaryKey: true
+                       nullable: false
+                -  column:
+                     name: name
+                     type: varchar(50)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: date_of_birth
+                     type: date
+                     constraints:
+                       nullable: false
+                - column:
+                    name: joining_date
+                    type: date
+                    constraints:
+                      nullable: false
+                - column:
+                    name: resignation_date
+                    type: date
+                    constraints:
+                      nullable: false
+                - column:
+                    name: highest_education_level
+                    type: varchar(30)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: national_registration_no
+                    type: varchar(20)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: teacher_id
+                    type: varchar(20)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: designation
+                    type: varchar(30)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: contact_no
+                    type: varchar(20)
+                    constraints:
+                      nullable: false
+                -  column:
+                     name: present_address
+                     type: varchar(100)
+                     constraints:
+                       nullable: false
+                -  column:
+                     name: permanent_address
+                     type: varchar(100)
+                     constraints:
+                       nullable: false
+                - column:
+                    name: blood_group
+                    type: varchar(5)
+                    constraints:
+                      nullable: false

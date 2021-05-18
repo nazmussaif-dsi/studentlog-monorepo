@@ -1,0 +1,35 @@
+databaseChangeLog:
+  -  changeSet:
+       id: create_class_details_table_5e2aa
+       author: ishtiaq
+       changes:
+           -  createTable:
+                tableName: class_details
+                columns:
+                    -  column:
+                         name: id
+                         type: int
+                         autoIncrement: true
+                         constraints:
+                           primaryKey: true
+                           nullable: false
+                    -  column:
+                         name: school_class_id
+                         type: int
+                         constraints:
+                           nullable: false
+                           foreignKeyName: fk_school_class_details
+                           references: school_class(id)
+                    - column:
+                        name: year
+                        type: varchar(10)
+                        constraints:
+                          nullable: false
+                    - column:
+                        name: teacher_id
+                        type: int
+                        constraints:
+                          nullable: false
+                          foreignKeyName: fk_class_details_teacher
+                          references: teacher(id)
+

@@ -1,0 +1,21 @@
+id,applied_date,decided_by_id,name,date_of_birth,blood_group,birth_registration_id,registration_id,present_address,permanent_address,guardian_name,guardian_email,guardian_phone,applied_for_grade,status
+1,2021-02-06 06:00:01,10,Ingunna Beseke,2008-02-16 06:00:01,AB-,51088922,54423160,9 Rigney Alley,51 Hanson Alley,Clyve Galiero,cgaliero0@slideshare.net,01445227707,6,approved
+2,2021-03-15 06:00:01,3,Bucky Kentish,2009-12-02 06:00:01,A-,25650363,21590456,366 Commercial Center,5491 Kedzie Drive,Micheil Deschelle,mdeschelle1@ask.com,01176245304,1,approved
+3,2020-07-14 06:00:01,6,Ilyssa Start,2012-09-22 06:00:01,O+,17668621,47421978,761 Heffernan Trail,9093 Prentice Court,Olly Valenti,,01746951236,1,rejected
+4,2020-08-21 06:00:01,,Donalt Trowle,2010-02-14 06:00:01,O+,37034491,56107343,6 1st Street,14941 Oxford Park,Eirena Dagnan,edagnan3@psu.edu,01898002973,8,submitted
+5,2021-01-06 06:00:01,,Abagail Booth,2008-07-02 06:00:01,O+,90596204,97209904,6891 Lawn Court,55222 Loftsgordon Place,Sheridan Tembridge,stembridge4@skype.com,01193808157,10,draft
+6,2020-06-24 06:00:01,5,Zacharie Sandwick,2006-05-21 06:00:01,B+,91349564,91356246,24931 Old Shore Drive,287 Tomscot Alley,Laure Wyett,,01860576471,5,rejected
+7,2020-09-21 06:00:01,,Blanch Sollner,2007-09-05 06:00:01,A+,92166437,47487399,51 Hallows Terrace,87471 Sunfield Avenue,Veronica Kitcherside,vkitcherside6@aboutads.info,01487438126,4,submitted
+8,2020-12-06 06:00:01,2,Leena Wyness,2006-05-19 06:00:01,O+,50385116,20504015,67102 Prairie Rose Junction,810 Sutherland Street,Bran Sotham,bsotham7@furl.net,01968705153,2,approved
+9,2020-08-24 06:00:01,,Annalise Garlee,2012-11-11 06:00:01,B+,64655608,39429495,19671 Meadow Valley Avenue,9147 Algoma Road,Conney Marcus,,01033951371,7,draft
+10,2021-04-09 06:00:01,2,Georgie Dadds,2010-07-07 06:00:01,O-,81721633,16202045,11981 Killdeer Avenue,87 Porter Park,Alfie Farens,,01839563601,7,approved
+11,2020-11-29 06:00:01,3,Valdemar Castles,2007-03-26 06:00:01,A-,85396984,71484824,1 North Circle,69829 Village Green Court,Donall Pennazzi,,01045411866,7,rejected
+12,2020-09-26 06:00:01,,Prent Curd,2005-10-28 06:00:01,A-,48109189,21944069,78 Carioca Park,6 Nobel Plaza,Tedd Simm,tsimmb@mac.com,01528694197,3,submitted
+13,2020-06-16 06:00:01,,Clement Chafney,2011-06-27 06:00:01,A-,79564625,89491118,532 Arizona Court,07 Sloan Junction,Milena Bonnaire,,01936255587,1,draft
+14,2020-04-29 06:00:01,2,Salem Cleft,2015-02-16 06:00:01,AB-,48329849,91182338,8828 Hoffman Place,855 Calypso Street,Britni Smeeton,,01413678838,7,approved
+15,2020-12-01 06:00:01,9,Horace Greger,2009-01-26 06:00:01,AB-,94726254,85182095,1958 Becker Point,1029 Nova Lane,Wilton Lister,wlistere@example.com,01266662352,4,rejected
+16,2020-05-14 06:00:01,,Gwennie Attridge,2009-03-22 06:00:01,A+,59703791,42429800,60170 Debra Junction,20 Delaware Place,Roseann Beranek,rberanekf@ebay.co.uk,01179099638,3,submitted
+17,2020-06-26 06:00:01,,Benedicta Burtt,2013-01-13 06:00:01,O-,32454408,63695163,5 Myrtle Junction,44 Nevada Place,Moritz O'Luby,molubyg@discuz.net,01839000512,8,draft
+18,2021-02-13 06:00:01,9,Banky Rose,2011-05-26 06:00:01,AB+,87641378,74252096,53239 Derek Junction,957 6th Pass,Lesli McNicol,lmcnicolh@squidoo.com,01835297600,8,rejected
+19,2020-08-14 06:00:01,,Glenine Corday,2006-09-06 06:00:01,AB+,59570574,41565778,3 Upham Parkway,29173 8th Pass,Gorden Danslow,,01604001592,7,submitted
+20,2021-03-27 06:00:01,3,Emlen Kernaghan,2010-01-04 06:00:01,O+,19762327,25149309,8 Meadow Vale Drive,5 Carpenter Center,Berke Smithin,bsmithinj@dyndns.org,01529919183,6,approved

@@ -1,0 +1,11 @@
+id,name,date_of_birth,joining_date,resignation_date,highest_education_level,national_registration_no,teacher_id,designation,contact_no,permanent_address,present_address,blood_group
+1,Abdul Karim,2080-04-23,2005-04-24,2005-04-23,MSc,1234567890,1001,Professor,8801123456789,Kulna,"Kolabagan, Dhaka",A+
+2,Abdur Razzak,2079-01-01,2004-01-01,2003-12-14,MSc,2345678901,1002,Professor,8801234567890,Chattagram,"Adabor, Dhaka",A-
+3,Sobur Ali Khan,2092-07-15,2018-01-01,2017-12-25,BSc,3456789012,1003,lecturer,8801345678901,Rajshahi,"Bashabo, Dhaka",B+
+4,Isrut Jahan,2079-04-03,2005-04-24,2005-04-23,MSc,4567899723,1004,Professor,8801123465789,Kulna,"Kolabagan, Dhaka",AB+
+5,Mohammad Maruf,2077-09-09,2004-01-01,2003-12-14,Phd,5679010284,1005,Professor,8801456789912,Chattagram,"Adabor, Dhaka",O-
+6,Tashin Ahmed,2090-08-09,2018-01-01,2017-12-25,BSc,6790120845,1006,lecturer,8801567900923,Rajshahi,"Bashabo, Dhaka",B+
+7,Nobosha Shabnom,2082-04-10,2005-04-24,2005-04-23,MSc,7901231406,1007,Professor,8801123456712,Kulna,"Kolabagan, Dhaka",A+
+8,Habib Rahman,2065-01-30,2004-01-01,2003-12-14,Phd,9012341967,1008,Professor,8801679011934,Chattagram,"Adabor, Dhaka",B-
+9,Miraz Anik,2093-02-14,2018-01-01,2017-12-25,BSc,1123452528,1009,lecturer,8801790122945,Rajshahi,"Bashabo, Dhaka",B+
+10,Tanveer Alam,2092-07-15,2018-01-01,2017-12-25,BSc,1124563089,1010,lecturer,8801123456456,Rajshahi,"Bashabo, Dhaka",O+

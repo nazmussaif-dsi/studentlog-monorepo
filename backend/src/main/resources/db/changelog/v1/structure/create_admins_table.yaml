@@ -1,0 +1,66 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_admins_table_1
+      author: lubna
+      changes:
+        - createTable:
+            tableName: admin
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: admin_id
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(30)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: designation
+                  type: varchar(15)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: date_of_birth
+                  type: date
+                  constraints:
+                    nullable: false
+              - column:
+                  name: blood_group
+                  type: varchar(10)
+              - column:
+                  name: highest_education_level
+                  type: varchar(20)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: joining_date
+                  type: date
+                  constraints:
+                    nullable: false
+              - column:
+                  name: resignation_date
+                  type: date
+              - column:
+                  name: contact_number
+                  type: varchar(15)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: present_address
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: permanent_address
+                  type: varchar(255)
+                  constraints:
+                    nullable: false

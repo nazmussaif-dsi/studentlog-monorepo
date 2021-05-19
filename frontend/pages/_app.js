@@ -12,7 +12,7 @@ import { SSRCookies, SSRKeycloakProvider } from "@react-keycloak/ssr";
 import Layout from "../modules/shared/layout";
 
 const keycloakCfg = {
-  url: "http://localhost:8000/auth",
+  url: "http://localhost:8080/auth",
   realm: "BANBEIS",
   clientId: "next-client",
   onLoad: 'login-required'

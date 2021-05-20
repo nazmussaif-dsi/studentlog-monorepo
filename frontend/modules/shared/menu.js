@@ -9,7 +9,8 @@ const Menu = ({t}) => {
     {label: t('attendance'), url: '/attendance/list', role: 'teacher'},
     {label: t('new_leave_application'), url: '/leave-application/new-application', role: 'student'},
     {label: t('pending_leave_applications'), url: '/leave-application/pending-applications', role: 'teacher'},
-    {label: t('student_registration'), url: '/registration', role: 'admin'}
+    {label: t('student_registration'), url: '/registration', role: 'admin'},
+    {label: t('teacher_registration'), url: '/teacher-registration', role: 'admin'}
   ]
 
   const keycloak = useKeycloak();

@@ -9,5 +9,6 @@
   "attendance": "উপস্থিতি",
   "new_leave_application": "নতুন ছুটির আবেদন",
   "pending_leave_applications": "ছুটির আবেদনসমূহ",
-  "student_registration": "ছাত্র নিবন্ধন"
+  "student_registration": "ছাত্র নিবন্ধন",
+  "teacher_registration": "শিক্ষক নিবন্ধন"
 }

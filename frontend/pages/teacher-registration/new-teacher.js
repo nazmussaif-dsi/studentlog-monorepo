@@ -4,30 +4,29 @@ import Head from "next/head";
 import RegistrationForm from "../../modules/teacher-registration/registration_form";
 import {Divider} from "primereact/divider";
 
-
 const axios = require('axios')
-const teacher_application_api_address = "http://localhost:8080/teachers"
+
 
 export default function NewTeacher() {
-  const [applicationId, setApplicationId] = useState(null);
+  // const [applicationId, setApplicationId] = useState(null);
 
-  useEffect(() => { // side effect hook
-    //generating a blank form for getting a unique id for saving as draft
-    const application_body = {
-      appliedDate: new Date(),
-      status: "draft"
-    };
-    axios.post(teacher_application_api_address, application_body).then(resp => {
-      setApplicationId(resp.data.id);
-    }).catch(error => {
-      // console.log(error);
-    });
+  // useEffect(() => { // side effect hook
+  //   //generating a blank form for getting a unique id for saving as draft
+  //   const application_body = {
+  //     appliedDate: new Date(),
+  //     status: "draft"
+  //   };
+  //   axios.post(teacher_application_api_address, application_body).then(resp => {
+  //     setApplicationId(resp.data.id);
+  //   }).catch(error => {
+  //     // console.log(error);
+  //   });
+  //
+  // }, []);
 
-  }, []);
-
-  if(!applicationId){
-    return <div>Loading...</div>
-  }
+  // if(!applicationId){
+  //   return <div>Loading...</div>
+  // }
 
   return (
     <>
@@ -44,8 +43,7 @@ export default function NewTeacher() {
 
           <Divider />
 
-          {/*<RegistrationForm applicationId={applicationId}*/}
-          {/*                 retrievedData={null}/>*/}
+          <RegistrationForm/>
 
         </main>
 

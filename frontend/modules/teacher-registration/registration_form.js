@@ -1,5 +1,4 @@
-import React, {useEffect, useRef, useState} from "react";
-import {useRouter} from "next/router";
+import React, {useRef, useState} from "react";
 import {InputText} from "primereact/inputtext";
 import {Divider} from 'primereact/divider';
 import {Button} from "primereact/button";
@@ -12,11 +11,10 @@ const axios = require('axios')
 const teacher_application_api_address = "http://localhost:8080/teachers"
 
 
-export default function RegistrationForm(props) {
+export default function RegistrationForm() {
   const [name, setName] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState("");
   const [joiningDate, setJoiningDate] = useState("");
-  const [registrationDate, setRegistrationDate] = useState("");
   const [highestEducationLevel, setHighestEducationLevel] = useState("");
   const [nationalRegistrationNo, setNationalRegistrationNo] = useState("");
   const [teacherId, setTeacherId] = useState("");
@@ -31,7 +29,6 @@ export default function RegistrationForm(props) {
   const isValidName = name.match(/^(\w| ){5,50}$/);
   const isValidDateOfBirth = !isNaN(new Date(dateOfBirth).getTime());
   const isValidJoiningDate = !isNaN(new Date(joiningDate).getTime());
-  const isValidRegistrationDate = !isNaN(new Date(registrationDate).getTime());
   const isValidHighestEducationLevel = highestEducationLevel.match(/^(\w| ){3,50}$/);
   const isValidNationalRegistrationNo = nationalRegistrationNo.match(/^[\d]{8,20}$/);
   const isValidTeacherId = teacherId.match(/^[\d]{4,20}$/);
@@ -45,7 +42,6 @@ export default function RegistrationForm(props) {
     isValidName
     && isValidDateOfBirth
     && isValidJoiningDate
-    && isValidRegistrationDate
     && isValidHighestEducationLevel
     && isValidNationalRegistrationNo
     && isValidTeacherId
@@ -60,7 +56,6 @@ export default function RegistrationForm(props) {
     setName("");
     setDateOfBirth("");
     setJoiningDate("");
-    setRegistrationDate("");
     setHighestEducationLevel("");
     setNationalRegistrationNo("");
     setTeacherId("");
@@ -76,7 +71,6 @@ export default function RegistrationForm(props) {
       name: name,
       dateOfBirth: dateOfBirth,
       joiningDate: joiningDate,
-      registrationDate: registrationDate,
       highestEducationLevel: highestEducationLevel,
       nationalRegistrationNo: nationalRegistrationNo,
       teacherId: teacherId,
@@ -87,13 +81,14 @@ export default function RegistrationForm(props) {
       bloodGroup: bloodGroup
     };
 
-    axios.post(teacher_application_api_address, application_body).then(resp => {
+    axios.post(teacher_application_api_address, application_body).then(() => {
       applicationToast.current.show({
         severity: 'success',
         summary: 'Application Submitted Successfully',
         life: 3000
       });
-    }).catch(error => {
+      clearData();
+    }).catch(() => {
       applicationToast.current.show({
         severity: 'error',
         summary: 'Error Occurred',
@@ -101,7 +96,6 @@ export default function RegistrationForm(props) {
         life: 3000
       });
     });
-    clearData();
   }
 
   const submitStudentApplicationData = (e) => {
@@ -162,21 +156,6 @@ export default function RegistrationForm(props) {
             id="joining_date"
             value={new Date(joiningDate)}
             onChange={event => setJoiningDate(event.target.value)}
-          />
-        </div>
-      </div>
-
-      <div className="p-field p-grid">
-        <label htmlFor="registration_date" className="p-col-fixed" style={{width: '180px'}}>Registration Date:</label>
-        <div className="p-col">
-          <Calendar
-            monthNavigator
-            yearNavigator
-            yearRange="1900:2100"
-            dateFormat="dd-mm-yy"
-            id="registration_date"
-            value={new Date(registrationDate)}
-            onChange={event => setRegistrationDate(event.target.value)}
           />
         </div>
       </div>

@@ -28,7 +28,6 @@ public class Teacher {
     @NonNull
     Date joiningDate;
 
-    @NonNull
     Date resignationDate;
 
     @NonNull

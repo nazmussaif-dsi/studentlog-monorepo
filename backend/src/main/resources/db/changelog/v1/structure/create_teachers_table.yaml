@@ -31,8 +31,6 @@ databaseChangeLog:
                 - column:
                     name: resignation_date
                     type: date
-                    constraints:
-                      nullable: false
                 - column:
                     name: highest_education_level
                     type: varchar(30)

@@ -1,5 +1,6 @@
 package com.ideal.studentlog.helpers.dataclass;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NonNull;
@@ -22,7 +23,6 @@ public class TeacherDTO {
     @NonNull
     Date joiningDate;
 
-    @NonNull
     Date resignationDate;
 
     @NonNull
